@@ -14,5 +14,5 @@ jobs:
           pip install fastapi httpx pytest pytest-cov starlette
       - name: Run tests with coverage threshold
         run: |
-          pip install pytest-cov
-          PYTHONPATH=. python -m pytest --cov=app --cov-fail-under=100
+          pip install pytest pytest-cov fastapi httpx
+          PYTHONPATH=. python -m pytest --cov=app --cov-report=term-missing --cov-fail-under=100
