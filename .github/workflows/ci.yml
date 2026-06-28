@@ -15,4 +15,4 @@ jobs:
       - name: Run tests with coverage threshold
         run: |
           pip install pytest-cov
-          PYTHONPATH=. python -m pytest --cov=app --cov-fail-under=80
+          PYTHONPATH=. python -m pytest --cov=app --cov-fail-under=100
