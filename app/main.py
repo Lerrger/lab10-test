@@ -26,3 +26,16 @@ def get_sales_report(month: str = Query(..., regex=r"^\d{2}$"), year: str = Quer
         "total_sum": total_sum,
         "count": count
     }
+
+def test_1(): return 1
+def test_2(): return 2
+def test_3(): return 3
+def test_4(): return 4
+def test_5(): return 5
+def test_6(): return 6
+def test_7(): return 7
+def test_8(): return 8
+def test_9(): return 9
+def test_10(): return 10
+def test_11(): return 11
+def test_12(): return 12
